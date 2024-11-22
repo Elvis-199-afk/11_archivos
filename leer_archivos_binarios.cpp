@@ -33,5 +33,5 @@ int main(){
 	return 0;
 }
 void mostrar(struct tRegistro registro){
-	cout<<right<<setw(10)<<registro.codigo<<setw(20)<<" - "<<registro.item<<setw(15)<<" - "<<registro.valor<<endl;
+	cout<<right<<setw(10)<<registro.codigo<<setw(20)<<" - "<<registro.item<<setw(20)<<" - "<<registro.valor<<endl;
 }
